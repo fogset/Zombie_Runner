@@ -13,16 +13,25 @@ public class Weapon : MonoBehaviour
     [SerializeField]
     float damage = 30f;
 
+    [SerializeField]
+    ParticleSystem muzzleFlash;
+
     // Update is called once per frame
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            Shoot();
+            PlayMuzzleFlash();
+            ProcessRaycast();
         }
     }
 
-    private void Shoot()
+    private void PlayMuzzleFlash()
+    {
+        muzzleFlash.Play();
+    }
+
+    private void ProcessRaycast()
     {
         RaycastHit hit;
         if (

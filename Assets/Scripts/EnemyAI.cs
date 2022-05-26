@@ -60,4 +60,10 @@ public class EnemyAI : MonoBehaviour
     {
         Debug.Log(name + " has seeked and is destroying " + target.name);
     }
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawSphere(transform.position, chaseRange);
+    }
 }

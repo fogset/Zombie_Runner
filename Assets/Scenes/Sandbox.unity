@@ -1613,24 +1613,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3681543e5b0f59742b73073cb379cdc6, type: 3}
---- !u!1 &1687873482 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8945364020405720020, guid: 5bfc94b8781b2eb4fb843fe3d5c71aaf, type: 3}
-  m_PrefabInstance: {fileID: 8945364020128141794}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1687873489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1687873482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 582f77bdd197ddc4da28769452abc313, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hitPoints: 100
 --- !u!1001 &1710154748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2412,42 +2394,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4040739665089584687, guid: 5bfc94b8781b2eb4fb843fe3d5c71aaf, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692546119955300300, guid: 5bfc94b8781b2eb4fb843fe3d5c71aaf, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692546119955300300, guid: 5bfc94b8781b2eb4fb843fe3d5c71aaf, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692546119955300300, guid: 5bfc94b8781b2eb4fb843fe3d5c71aaf, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.524
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692546119955300300, guid: 5bfc94b8781b2eb4fb843fe3d5c71aaf, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.515
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692546119955300300, guid: 5bfc94b8781b2eb4fb843fe3d5c71aaf, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692546119955300300, guid: 5bfc94b8781b2eb4fb843fe3d5c71aaf, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.953717
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692546119955300300, guid: 5bfc94b8781b2eb4fb843fe3d5c71aaf, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.30070576
-      objectReference: {fileID: 0}
-    - target: {fileID: 6692546119955300300, guid: 5bfc94b8781b2eb4fb843fe3d5c71aaf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -35
-      objectReference: {fileID: 0}
     - target: {fileID: 8945364020405720020, guid: 5bfc94b8781b2eb4fb843fe3d5c71aaf, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -2456,29 +2402,9 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1467884789}
-    - target: {fileID: 8945364020405720021, guid: 5bfc94b8781b2eb4fb843fe3d5c71aaf, type: 3}
-      propertyPath: chaseRange
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8945364020405720026, guid: 5bfc94b8781b2eb4fb843fe3d5c71aaf, type: 3}
-      propertyPath: m_StoppingDistance
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8945364020405720030, guid: 5bfc94b8781b2eb4fb843fe3d5c71aaf, type: 3}
       propertyPath: m_RootOrder
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8945364020405720030, guid: 5bfc94b8781b2eb4fb843fe3d5c71aaf, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8945364020405720030, guid: 5bfc94b8781b2eb4fb843fe3d5c71aaf, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8945364020405720030, guid: 5bfc94b8781b2eb4fb843fe3d5c71aaf, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8945364020405720030, guid: 5bfc94b8781b2eb4fb843fe3d5c71aaf, type: 3}
       propertyPath: m_LocalPosition.x

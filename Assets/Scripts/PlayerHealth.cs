@@ -15,6 +15,8 @@ public class PlayerHealth : MonoBehaviour
         {
             //Destroy (gameObject);
             Debug.Log("You dead, my glip glop");
+            
+            GetComponent<DeathHandler>().HandleDeath();
         }
     }
 }

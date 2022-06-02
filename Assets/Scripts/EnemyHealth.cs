@@ -9,13 +9,12 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        
+        BroadcastMessage("OnDamageTaken");
         Debug.Log("I am taking damage");
         hitPoints -= damage;
         if (hitPoints <= 0)
         {
             Destroy (gameObject);
-            
         }
     }
 }
